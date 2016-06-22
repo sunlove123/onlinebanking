@@ -1,0 +1,16 @@
+---
+applications:
+- name: onlinebanking
+  memory: 512M
+  instances: 1
+  host: onlinebanking
+  domain: cfapps.io
+  path: target/onlinebanking.war
+  services:
+    newrelic:
+      label: newrelic
+      provider: newrelic
+      version: n/a
+      plan: turtle
+  env:
+    SPRING_PROFILES_DEFAULT: cloud
