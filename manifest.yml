@@ -1,7 +1,7 @@
 ---
 applications:
 - name: onlinebanking
-  memory: 512M
+  memory: 256M
   instances: 1
   host: onlinebanking
   domain: cfapps.io
