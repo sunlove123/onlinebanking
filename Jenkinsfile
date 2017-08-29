@@ -14,6 +14,6 @@ node {
      
    }
    stage('Results') {
-         sh "mvn cln"
+         sh "mvn clean"
    }
 }
