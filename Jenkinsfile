@@ -1,7 +1,7 @@
 node {
 
    stage('Preparation') { // for display purposes
-      // Get some code from a GitHub repository..<appndid>.
+      
       git 'https://github.com/sunlove123/onlinebanking.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
