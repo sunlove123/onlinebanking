@@ -1,4 +1,4 @@
-env.dockerimagename="buildon/buildon:v2"
+env.dockerimagename="devopsbasservice/buildonframework:buildon-jenkinsfile"
 node {
 
    stage('Preparation') { //for display purposes
